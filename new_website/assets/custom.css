@@ -6,3 +6,14 @@ span.btn.btn-social{
     color: white;
     border-color: white;
 }
+
+
+.btn-primary{
+    background-color: #62a3c9;
+    border-color: #62a3c9;
+}
+
+.btn-primary:hover{
+    background-color: #3c8dbc;
+    border-color: #3c8dbc;
+}
