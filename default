@@ -1,0 +1,22 @@
+server {
+        listen 80 default_server;
+        listen [::]:80 default_server ipv6only=on;
+
+        . . .
+
+        error_page 404 /status_page.html;
+        location = /status_page.html {
+                root /usr/share/nginx/html;
+                internal;
+        }
+
+        error_page 500 502 503 504 /status_page.html;
+        location = /status_page.html {
+                root /usr/share/nginx/html;
+                internal;
+        }
+
+        location /testing {
+                fastcgi_pass unix:/does/not/exist;
+        }
+}
