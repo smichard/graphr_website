@@ -18,6 +18,11 @@ span.btn.btn-social{
     border-color: #3c8dbc;
 }
 
+.btn-primary:visited{
+    background-color: #62a3c9;
+    border-color: #3c8dbc;
+}
+
 h3.connect{
     color: white;
 }
@@ -29,4 +34,8 @@ h3.connect{
 .status_link{
     margin-top: 400px;
     margin-left: 180px;
+}
+
+p.mbr-section-lead.lead{
+    width: 600px;
 }
