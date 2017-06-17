@@ -39,3 +39,15 @@ h3.connect{
 p.mbr-section-lead.lead{
     width: 600px;
 }
+
+#menu-0 .bg-color.transparent .navbar-caption{
+    color: black;
+}
+
+#menu-0 .bg-color.transparent .link{
+    color: black;
+}
+
+#menu-0 .link:hover{
+    color: #62a3c9;
+}
