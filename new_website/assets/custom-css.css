@@ -7,6 +7,17 @@ span.btn.btn-social{
     border-color: white;
 }
 
+.btn-social:hover{
+    color: white;
+    border-color: white;
+    background: #62a3c9;
+}
+
+a.socicon:before{
+    color: white;
+    text-decoration: none;
+    border-color: white;
+}
 
 .btn-primary{
     background-color: #62a3c9;
