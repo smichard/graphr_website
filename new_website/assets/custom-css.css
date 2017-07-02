@@ -62,3 +62,7 @@ p.mbr-section-lead.lead{
 #menu-0 .link:hover{
     color: #62a3c9;
 }
+
+p.mbr-section-lead.lead {
+    color: black;
+}
