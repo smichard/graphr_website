@@ -63,6 +63,10 @@ p.mbr-section-lead.lead{
     color: #62a3c9;
 }
 
+#menu-0 .link:focus {
+    color: white;
+}
+
 p.mbr-section-lead.lead {
     color: black;
 }
