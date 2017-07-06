@@ -70,3 +70,7 @@ p.mbr-section-lead.lead{
 p.mbr-section-lead.lead {
     color: black;
 }
+
+a.text_link{
+    color: darkgrey;
+}
