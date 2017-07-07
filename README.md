@@ -1,9 +1,7 @@
 # Website for project graphR.
 
-See details [graphR.design](http://www.graphR.design)
+Explore code on [GitHub](https://github.com/smichard/graphR) or find out more at the [graphR. website](https://www.graphr.de).
 
-## Creator
+## Author
 
-In case you want to reach out to me. The easiest way to do so is through Twitter:
-
-* https://twitter.com/StephanMichard
+* **Stephan Michard** - reach out on [Twitter](https://twitter.com/StephanMichard)
