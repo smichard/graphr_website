@@ -1,0 +1,8 @@
+---
+applications:
+- name: graphr
+  memory: 64M
+  instances: 2
+  host: graphr
+  path: website/
+  buildpack: staticfile_buildpack
