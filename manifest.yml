@@ -3,6 +3,11 @@ applications:
 - name: graphr
   memory: 64M
   instances: 2
-  host: graphr
   path: website/
-  buildpack: staticfile_buildpack
+  routes:
+  - route: graphr.cfd.isus.emc.com
+  stack: cflinuxfs3
+  buildpacks:
+    - staticfile_buildpack
+  env:
+    FORCE_HTTPS: true
