@@ -1,3 +1,29 @@
+a {
+  color: #3c8dbc;
+}
+
+a:hover {
+    color: #62a3c9;
+  }
+
+.wrapper-button{
+    width: max-content;
+}
+
+.wrapper-button a {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.devel-btn {
+    min-width: 242px;
+}
+
+.intro-btn {
+    min-width: 242px;
+    min-height: 48px;
+}
+
 .socicon{
     color: white;
 }
@@ -20,17 +46,21 @@ a.socicon:before{
 }
 
 .btn-primary{
+    background-color: #3c8dbc;
+    border-color: #3c8dbc;
+    display: inline-block;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
     background-color: #62a3c9;
     border-color: #62a3c9;
 }
 
-.btn-primary:hover{
+.btn-primary:visited,
+.btn-primary:active{
     background-color: #3c8dbc;
-    border-color: #3c8dbc;
-}
-
-.btn-primary:visited{
-    background-color: #62a3c9;
     border-color: #3c8dbc;
 }
 
